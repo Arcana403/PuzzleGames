@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+	<title>Puzzle Games</title>
+	<meta charset="UTF-8">
+	<meta name="Author" content="Philip Angelo Y. Dulva">
+	<meta name="Author" content="Sead Antoine D. Loste">
+	<meta name="Author" content="Geno Paul S. Cumla">
+	<link rel="stylesheet" type="text/css" href="JSandCSS/Style.css">
+	<link rel="icon" href="JSandCSS/Meh.png">
+	<script src="JSandCSS/domino.js"></script>
+	<script src="JSandCSS/trio.js"></script>
+	<script src="JSandCSS/Meh.js"></script>
+</head>
+<body>
+	<div id="title">
+		<h1><a href="#1" onClick="myRule()">Puzzle</a> <a href="#2" onClick="mindRead()">Games</a></h1>
+	</div>
+	<div id="body">
+		<div class="puzzle">
+			<h1>Puzzle 1: Color Dominos</h1>
+			<hr>
+			<p>In this puzzle game, you are to rearrange the tiles inside the shape to make the tiles color match there adjacent color. Click on the two tiles to swap them. You will be able to win the game if all the tiles are in the right place.</p>
+			<p class="levels"><a href="#domino" onClick="domino()">Start the Game</a></p>
+		</div>
+		<div id="domino" class="games">
+			<h1>Color Dominos</h1><hr>
+			<div id="DImage">
+				<img src="BlankImage.jpg" id="D1" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D2" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D3" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D4" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D5" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D6" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D7" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D8" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D9" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D10" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D11" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D12" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D13" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D14" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D15" onclick="swap(src,id)">
+				<img src="BlankImage.jpg" id="D16" onclick="swap(src,id)">
+			</div> 
+			<div id="DTimer">
+				<p id="dtimer"></p>
+			</div>
+		</div>
+		<div class="puzzle">
+			<h1>Puzzle 2: Trio Picture</h1>
+			<hr>
+			<p>In this puzzle game, you are to form the picture that was given to you in the start of the game. You can change the picture shown by clicking on it or its adjacent square. Forming the picture shown will guarantee victory.</p>
+			<p class="levels"><a href="#trio" onClick="trio()">Start the Game</a></p>
+		</div>
+		<div id="trio" class="games">
+			<h1>Trio Puzzle</h1><hr>
+			<div id="TImage">
+				<img src="BlankImage.jpg" id="TP1" onclick="Tchange1()">
+				<img src="BlankImage.jpg" id="TP2" onclick="Tchange2()">
+				<img src="BlankImage.jpg" id="TP3" onclick="Tchange3()">
+				<img src="BlankImage.jpg" id="TP4" onclick="Tchange4()">
+				<img src="BlankImage.jpg" id="TP5" onclick="Tchange5()">
+				<img src="BlankImage.jpg" id="TP6" onclick="Tchange6()">
+				<img src="BlankImage.jpg" id="TP7" onclick="Tchange7()">
+				<img src="BlankImage.jpg" id="TP8" onclick="Tchange8()">
+				<img src="BlankImage.jpg" id="TP9" onclick="Tchange9()">
+				<img src="BlankImage.jpg" id="thumbnail">
+			</div>
+			<div id="TTimer">
+				<p id="ttimer"></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

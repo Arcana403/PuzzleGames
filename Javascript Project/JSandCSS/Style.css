@@ -1,0 +1,109 @@
+body{
+	margin-left:5%;
+	margin-right:5%;
+	background-color:lightgray;
+}
+#title h1{
+	background-color:skyblue;
+	text-align:center;
+	width:250px;
+	margin:auto;
+	padding:5px;
+	cursor:default;
+}
+#title a{
+	cursor:default;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.puzzle{
+	margin:15px;
+	padding:5px;
+	border:3px outset blue;
+	width:1158px;
+	float:left;
+	color:black;
+	background-color:skyblue;
+	text-align:center;
+}
+.puzzle p.levels{
+	width: 250px;
+	font-size:25px;
+	background-color: gold;
+	padding:3px;
+	margin:auto;
+	margin-top:15px;
+	margin-bottom:15px;
+	font-weight:bold;
+}
+.games{
+	margin:15px;
+	padding:5px;
+	border:3px outset blue;
+	width:1158px;
+	float:left;
+	color:black;
+	background-color:skyblue;
+	text-align:center;	
+	height:705px;
+}
+#DTimer{
+	color:black;
+	text-align:center;
+	background-color:white;
+	clear:both;
+	position: relative;
+	top:-600px;
+	left:50px; 	
+	width:150px;
+	padding:10px;
+	font-weight:bold;
+	font-size:25px;
+	height:75px;
+}
+#DImage{
+	width:600px;
+	margin:auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#DImage img{
+	float:left;
+	width: 140px;
+	height:140px;
+	padding:5px;
+}
+#TImage{
+	width:600px;
+	margin:auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#TImage img{
+	float:left;
+	width: 200px;
+	height:200px;
+}
+#TTimer{
+	color:black;
+	text-align:center;
+	background-color:white;
+	clear:both;
+	position: relative;
+	top:-720px;
+	left:50px;
+	width:150px;
+	padding:10px;
+	font-weight:bold;
+	font-size:25px;
+	height:75px;
+}
+img#thumbnail{
+	position: relative;
+	left:-205px;
+	top:-480px;
+	height:125px;
+	width:125px;
+}
